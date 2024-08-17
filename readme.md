@@ -73,5 +73,11 @@ Chromeのバージョンは`127.0.6533.120`なのでこれにあわせて設定�
 
 ## 参考文献
 
-- [最新のChromedriverの設定　vol.2](https://qiita.com/Chronos2500/items/7f56898af25523d04598)
-- [Eclipse：Java9モジュールシステムを使うと共にJUnitを使う方法](https://www.gwtcenter.com/using-module-system-with-junit-on-eclipse)
+- セットアップ
+	- [最新のChromedriverの設定　vol.2](https://qiita.com/Chronos2500/items/7f56898af25523d04598)
+	- [Eclipse：Java9モジュールシステムを使うと共にJUnitを使う方法](https://www.gwtcenter.com/using-module-system-with-junit-on-eclipse)
+	- [2.1 Javaモジュールシステム（モジュール定義ファイル、モジュールパス、ルートモジュール、自動モジュール、無名モジュールなど）～Java Advanced編](https://qiita.com/KenyaSaitoh/items/a04a1e94d28153fd1afb)
+- Chromeをシークレットモードで開く
+	- [Chrome固有の機能](https://www.selenium.dev/ja/documentation/webdriver/browsers/chrome/)
+	- [PythonでヘッドレスChromeをシークレットモードで開いてやんよ!!!](https://tokidoki-web.com/2018/12/python%E3%81%A7%E3%83%98%E3%83%83%E3%83%89%E3%83%AC%E3%82%B9chrome%E3%82%92%E3%82%B7%E3%83%BC%E3%82%AF%E3%83%AC%E3%83%83%E3%83%88%E3%83%A2%E3%83%BC%E3%83%89%E3%81%A7%E9%96%8B%E3%81%84%E3%81%A6/)
+
