@@ -13,6 +13,7 @@ class SampleTest {
 
 	@BeforeAll
 	static void setUpBeforeClass() throws Exception {
+		// ChromeDriverをクラスパスに設定する。
 		System.setProperty("webdriver.chrome.driver", "../../../Selenium/chromedriver-win64/chromedriver.exe");
 	}
 
