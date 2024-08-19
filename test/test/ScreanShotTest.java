@@ -12,7 +12,6 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
-import java.util.concurrent.TimeUnit;
 
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
@@ -56,10 +55,10 @@ class ScreanShotTest {
 		driver.get("https://github.com/gsx-s1000f");
 		
 		TakesScreenshot screenshot = (TakesScreenshot)new Augmenter().augment(driver);
-		Path from = Paths.get(screenshot.getScreenshotAs(OutputType.FILE).toURI());
-		Path to = Paths.get("./tmp/shreenshot.png");
+		Path ssPath = Paths.get(screenshot.getScreenshotAs(OutputType.FILE).toURI());
+		Path myPath = Paths.get("./tmp/shreenshot.png");
 		try {
-			Files.move(from, to, StandardCopyOption.REPLACE_EXISTING);
+			Files.move(ssPath, myPath, StandardCopyOption.REPLACE_EXISTING);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
