@@ -54,8 +54,10 @@ class ScreanShotTest {
 		
 		driver.get("https://github.com/gsx-s1000f");
 		
+		// スクリーンショットをとる（保存場所は自動的に決まるみたい）
 		TakesScreenshot screenshot = (TakesScreenshot)new Augmenter().augment(driver);
 		Path ssPath = Paths.get(screenshot.getScreenshotAs(OutputType.FILE).toURI());
+		// スクリーンショットの格納先から、自分用フォルダに移動する。
 		Path myPath = Paths.get("./tmp/shreenshot.png");
 		try {
 			Files.move(ssPath, myPath, StandardCopyOption.REPLACE_EXISTING);
