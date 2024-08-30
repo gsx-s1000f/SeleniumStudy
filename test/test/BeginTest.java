@@ -11,7 +11,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 /**
- * ブラウザを起動するせっていあれこれ。
+ * ブラウザを起動する設定あれこれ。
  */
 class BeginTest {
 
